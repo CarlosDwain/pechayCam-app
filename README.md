@@ -2,7 +2,7 @@
   <img src="icons/PechayCam App Logo.png" alt="Logo" width="200">
 </p>
 
-# pechayCam-app
+# The PechayCam App
 
 ## Overview
 
