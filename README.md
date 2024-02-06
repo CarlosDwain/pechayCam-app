@@ -8,7 +8,7 @@
 This repository contains the source code for a client-server application that leverages a trained model to classify plant diseases and estimate their severity in hydroponically grown Pechay.
 
 <p align="center">
-  <img src="icons/PechayCam App Logo.png" alt="Logo" width="200">
+  <img src="icons/Overall architecture.png" alt="Logo" width="200">
 </p>
 
 ### Project Structure
