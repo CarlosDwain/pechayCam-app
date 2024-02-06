@@ -27,23 +27,11 @@ The architectural diagram illustrates the interplay between the client and serve
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CarlosDwain/pechay-disease-cnn.git
+   git clone https://github.com/CarlosDwain/pechayCam-app.git
    
 2. Install the dependencies:
    ```bash
    pip install -r requirement_pyqt5.txt
-
-3. Train the CNN model:
-   ```bash
-   python src/train_pechay.py
-
-4. Plot the Training and Validation Accuracy and Loss:
-   ```bash
-   python src/plots.py
-   
-5. Test the model:
-   ```bash
-   python src/test_pechay.py
 
 
 <a name="section2"></a>
