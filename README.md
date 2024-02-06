@@ -11,7 +11,7 @@ This repository contains the source code for a client-server application that le
   <img src="icons/Overall architecture 2.jpg" alt="Logo">
 </p>
 
-The overall architecture illustrated in the figure above shows the communication between the client and server. At the core of the architecture is the laptop server, which houses the deep learning model trained to output the Pechay plant disease and disease severity. Deploying the deep learning model as a REST API allows the Raspberry Pi to utilize it for inference. This architecture can also be used to make the model accessible for mobile or desktop applications, which is good for scalability.
+The architectural diagram illustrates the interplay between the client and server components. At its heart lies the laptop server, hosting the trained deep learning model designed to recognize diseases in Pechay plants and assess their severity. By deploying this model as a REST API, it becomes readily available for inference by the Raspberry Pi. This setup not only ensures efficient utilization of resources but also facilitates scalability, making the model accessible across various platforms including mobile and desktop applications.
 
 ### System Workflow
 
