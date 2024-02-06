@@ -43,3 +43,45 @@ The client verifies the success of the server response. If unsuccessful, the use
 | server/pechayCam_server.py    | Hosts the Multioutput CNN model and handles the incoming post request from the client. Outputs the plant disease and severity estimation then sends the result back to the client. |
 | server/inceptionV3_arch.h5    | Stores the architecture of the trained CNN model used for disease classification and severity estimation. The pre-trained model used here is the inceptionV3. |
 | server/inceptionV3_weights.h5 | Stores the weights of the trained CNN model used for disease classification and severity estimation. |
+
+## Setting Up PyQt5 Development Environment
+
+To start developing PyQt5 applications, follow these steps to set up your development environment:
+
+1. **Create a Virtual Environment**: Begin by creating a virtual environment named `pyqt5` or `pyside6` using your preferred virtual environment manager.
+
+    ```bash
+    # For virtualenv
+    virtualenv pyqt5
+    
+    # For venv (Python 3.3+)
+    python3 -m venv pyqt5
+    ```
+
+2. **Install PyQt5 or PySide6**: Install either PyQt5 or PySide6 package using pip, depending on your preference.
+
+    ```bash
+    pip install PyQt5
+    ```
+
+    or
+
+    ```bash
+    pip install PySide6
+    ```
+
+3. **Install PyQt5 Tools**: Optionally, you can install PyQt5 tools to enhance your development experience.
+
+    ```bash
+    pip install pyqt5-tools
+    ```
+
+4. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\CARLOS\python_envs\pyqt5`, you can find the Designer app at `D:\CARLOS\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
+
+    ```bash
+    cd D:\CARLOS\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin
+    ```
+
+    In this directory, you will find the PyQt5 Designer application, which you can use to design and create PyQt5 GUI applications visually.
+
+With these steps completed, you're ready to start developing PyQt5 applications using the powerful tools provided by the PyQt5 framework.
