@@ -51,12 +51,7 @@ To start developing PyQt5 applications, follow these steps to set up your develo
 1. **Create a Virtual Environment**: Begin by creating a virtual environment named `pyqt5` or `pyside6` using your preferred virtual environment manager.
 
     ```bash
-    # For virtualenv
-    virtualenv pyqt5
-    
-    # For venv (Python 3.3+)
-    python3 -m venv pyqt5
-    ```
+    python -m venv venv-name
 
 2. **Install PyQt5 or PySide6**: Install either PyQt5 or PySide6 package using pip, depending on your preference.
 
