@@ -14,10 +14,15 @@ This repository contains the source code for a client-server application that le
 The architectural diagram illustrates the interplay between the client and server components. At its heart lies the laptop server, hosting the trained deep learning model designed to recognize diseases in Pechay plants and assess their severity. By deploying this model as a REST API, it becomes readily available for inference by the Raspberry Pi. This setup not only ensures efficient utilization of resources but also facilitates scalability, making the model accessible across various platforms including mobile and desktop applications.
 
 ### System Workflow
+The system operates in a structured sequence, outlined in the workflow diagram below. Initially, upon image capture, the system verifies the Plant ID and Server IP accuracy. If validated, the image data is formatted into JSON and transmitted to the application server via an HTTP post request. Any discrepancies prompt the user to reattempt image capture.
 
 <p align="center">
   <img src = "icons/System Workflow.jpg" alt="Logo" width="400">
 </p>
+
+On the server side, upon receiving the JSON data, it is converted back into a numpy array format. This data is then fed into a multioutput CNN model, which provides insights into both the plant disease and its severity. The resulting information is formatted into JSON and sent back to the client.
+
+The client verifies the success of the server response. If unsuccessful, the user is advised to try capturing the image again. Conversely, upon successful reception, the result is converted into string format and stored in an SQLite database. Finally, the processed data is displayed on a 3.5-inch screen, marking the end of the system's operation.
 
 ### Client Directory Details
 
