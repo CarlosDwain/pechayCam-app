@@ -44,6 +44,12 @@ The client verifies the success of the server response. If unsuccessful, the use
 | server/inceptionV3_arch.h5    | Stores the architecture of the trained CNN model used for disease classification and severity estimation. The pre-trained model used here is the inceptionV3. |
 | server/inceptionV3_weights.h5 | Stores the weights of the trained CNN model used for disease classification and severity estimation. |
 
+### UI Directory Details
+
+| File                         | Description                                                                                                             |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| client/main.py               |  Contains the `MainWindow` class responsible for the backend functionality of the GUI.                                  |
+
 ## Setting Up PyQt5 Development Environment
 
 To start developing PyQt5 applications, first setup `pyenv` in your computer and then follow these steps to set up your development environment:
