@@ -65,11 +65,13 @@ To start developing PyQt5 applications, first setup `pyenv` in your computer and
     python -m venv venv-name
 
 2. **Activate the Virtual Environment**: Navigate to the virtual environment's folder, in my case it is `python_envs`. Activate the virtual environment by running the appropriate activation command for your operating system.
+   
+   For windows:
 
     ```bash
     venv-name\Scripts\activate
 
-3. **Install PyQt5 or PySide6**: Install either PyQt5 or PySide6 package using pip, depending on your preference.
+4. **Install PyQt5 or PySide6**: Install either PyQt5 or PySide6 package using pip, depending on your preference.
 
     ```bash
     pip install PyQt5
@@ -81,13 +83,13 @@ To start developing PyQt5 applications, first setup `pyenv` in your computer and
     pip install PySide6
     ```
 
-4. **Install PyQt5 Tools**: Optionally, you can install PyQt5 tools to enhance your development experience.
+5. **Install PyQt5 Tools**: Optionally, you can install PyQt5 tools to enhance your development experience.
 
     ```bash
     pip install pyqt5-tools
     ```
 
-5. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\username\python_envs\pyqt5`, you can find the Designer app at `D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
+6. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\username\python_envs\pyqt5`, you can find the Designer app at `D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
 
     ```bash
     cd D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin
