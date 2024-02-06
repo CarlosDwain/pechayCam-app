@@ -25,6 +25,7 @@ On the server side, upon receiving the JSON data, it is converted back into a nu
 The client verifies the success of the server response. If unsuccessful, the user is advised to try capturing the image again. Conversely, upon successful reception, the result is converted into string format and stored in an SQLite database. Finally, the processed data is displayed on a 3.5-inch screen, marking the end of the system's operation.
 
 ### Client Directory Details
+Note: These files are used for Raspberry Pi only. Users can create their own clients for mobile phones or desktop applications.
 
 | File                         | Description                                                                                                             |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------|
