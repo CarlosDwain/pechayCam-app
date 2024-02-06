@@ -13,7 +13,12 @@ This repository contains the source code for a client-server application that le
 
 The overall architecture illustrated in the figure above shows the communication between the client and server. At the core of the architecture is the laptop server, which houses the deep learning model trained to output the Pechay plant disease and disease severity. Deploying the deep learning model as a REST API allows the Raspberry Pi to utilize it for inference. This architecture can also be used to make the model accessible for mobile or desktop applications, which is good for scalability.
 
-### Project Structure
+### System Workflow
+
+<p align="center">
+  <img src = "icons/System Workflow.jpg" alt="Logo">
+</p>
+
 ### Client Directory Details
 
 | File                         | Description                                                                                                             |
