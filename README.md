@@ -59,7 +59,7 @@ The client verifies the success of the server response. If unsuccessful, the use
 
 To start developing PyQt5 applications, first setup `pyenv` in your computer and then follow these steps to set up your development environment:
 
-1. **Create a Virtual Environment**: Begin by navigating to the folder that will contain the python environment, I named it `python_envs`. It is recommended to create one folder for all virtual environment. After, create a virtual environment named `pyqt5` or `pyside6`
+1. **Create a Virtual Environment**: Begin by navigating to the folder that will contain the python environment, I named it `python_envs`. It is recommended to create one folder for all virtual environment and put it on a different hard disk to your OS. After, create a virtual environment named `pyqt5` or `pyside6`
 
     ```bash
     python -m venv venv-name
