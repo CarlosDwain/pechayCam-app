@@ -106,15 +106,5 @@ To use these UI files in your PyQt5 or PySide2/6 application, you need to conver
 
 ### Why Do We Do This?
 
-Converting UI files to Python scripts allows you to integrate the user interface directly into your application code. This approach offers several benefits:
-
-- **Dynamic Integration**: By converting UI files to Python, you can dynamically load and modify the user interface within your application code.
-
-- **Ease of Maintenance**: Working with Python code is often more convenient and intuitive than directly modifying UI files, especially for complex layouts and interactions.
-
-- **Version Control**: Storing the user interface as Python code allows you to manage it along with the rest of your application code using version control systems like Git.
-
-- **Cross-Platform Compatibility**: Python scripts are platform-independent, making it easier to deploy your application across different operating systems.
-
-Overall, converting UI files to Python facilitates the development process and provides greater flexibility and control over the user interface of your Qt applications.
+Converting UI files to Python scripts allows you to integrate the user interface directly into your application code.
 
