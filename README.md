@@ -46,14 +46,19 @@ The client verifies the success of the server response. If unsuccessful, the use
 
 ## Setting Up PyQt5 Development Environment
 
-To start developing PyQt5 applications, follow these steps to set up your development environment:
+To start developing PyQt5 applications, first setup `pyeng` in your computer and then follow these steps to set up your development environment:
 
 1. **Create a Virtual Environment**: Begin by creating a virtual environment named `pyqt5` or `pyside6` using your preferred virtual environment manager.
 
     ```bash
     python -m venv venv-name
 
-2. **Install PyQt5 or PySide6**: Install either PyQt5 or PySide6 package using pip, depending on your preference.
+2. **Activate the Virtual Environment**: Activate the virtual environment by running the appropriate activation command for your operating system.
+
+    ```bash
+    venv-name\Scripts\activate
+
+3. **Install PyQt5 or PySide6**: Install either PyQt5 or PySide6 package using pip, depending on your preference.
 
     ```bash
     pip install PyQt5
@@ -65,13 +70,13 @@ To start developing PyQt5 applications, follow these steps to set up your develo
     pip install PySide6
     ```
 
-3. **Install PyQt5 Tools**: Optionally, you can install PyQt5 tools to enhance your development experience.
+4. **Install PyQt5 Tools**: Optionally, you can install PyQt5 tools to enhance your development experience.
 
     ```bash
     pip install pyqt5-tools
     ```
 
-4. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\username\python_envs\pyqt5`, you can find the Designer app at `D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
+5. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\username\python_envs\pyqt5`, you can find the Designer app at `D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
 
     ```bash
     cd D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin
