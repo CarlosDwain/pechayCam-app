@@ -64,7 +64,7 @@ To start developing PyQt5 applications, first setup `pyenv` in your computer and
     ```bash
     python -m venv venv-name
 
-2. **Activate the Virtual Environment**: Activate the virtual environment by running the appropriate activation command for your operating system.
+2. **Activate the Virtual Environment**: Navigate to the virtual environment's folder, in my case it is `python_envs`. Activate the virtual environment by running the appropriate activation command for your operating system.
 
     ```bash
     venv-name\Scripts\activate
