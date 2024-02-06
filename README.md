@@ -76,10 +76,10 @@ To start developing PyQt5 applications, follow these steps to set up your develo
     pip install pyqt5-tools
     ```
 
-4. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\CARLOS\python_envs\pyqt5`, you can find the Designer app at `D:\CARLOS\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
+4. **Access PyQt5 Designer**: Navigate to the PyQt5 bin directory in your virtual environment. For example, if your virtual environment is located at `D:\username\python_envs\pyqt5`, you can find the Designer app at `D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin`.
 
     ```bash
-    cd D:\CARLOS\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin
+    cd D:\username\python_envs\pyqt5\Lib\site-packages\qt5_applications\Qt\bin
     ```
 
     In this directory, you will find the PyQt5 Designer application, which you can use to design and create PyQt5 GUI applications visually.
