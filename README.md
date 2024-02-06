@@ -15,14 +15,38 @@ The architectural diagram illustrates the interplay between the client and serve
 
 ## Table of Contents
 
-- [System Workflow](#section1)
-- [Client Directory Details](#section2)
-- [Server Directory Details](#section3)
-- [UI Directory Details](#section4)
-- [Setting Up PyQt5 Development Environment](#section5)
-- [Converting UI to Python in Qt](#section6)
+- [Installation](#section1)
+- [System Workflow](#section2)
+- [Client Directory Details](#section3)
+- [Server Directory Details](#section4)
+- [UI Directory Details](#section5)
+- [Setting Up PyQt5 Development Environment](#section6)
+- [Converting UI to Python in Qt](#section7)
 
 <a name="section1"></a>
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CarlosDwain/pechay-disease-cnn.git
+   
+2. Install the dependencies:
+   ```bash
+   pip install -r requirement_pyqt5.txt
+
+3. Train the CNN model:
+   ```bash
+   python src/train_pechay.py
+
+4. Plot the Training and Validation Accuracy and Loss:
+   ```bash
+   python src/plots.py
+   
+5. Test the model:
+   ```bash
+   python src/test_pechay.py
+
+
+<a name="section2"></a>
 ## System Workflow
 The system operates in a structured sequence, outlined in the workflow diagram below. Initially, upon image capture, the system verifies the Plant ID and Server IP accuracy. If validated, the image data is formatted into JSON and transmitted to the application server via an HTTP post request. Any discrepancies prompt the user to reattempt image capture.
 
@@ -34,7 +58,7 @@ On the server side, upon receiving the JSON data, it is converted back into a nu
 
 The client verifies the success of the server response. If unsuccessful, the user is advised to try capturing the image again. Conversely, upon successful reception, the result is converted into string format and stored in an SQLite database. Finally, the processed data is displayed on a 3.5-inch screen, marking the end of the system's operation.
 
-<a name="section2"></a>
+<a name="section3"></a>
 ## Client Directory Details
 Note: These files are used for Raspberry Pi only. Users can create their own clients for mobile phones or desktop applications.
 
@@ -48,7 +72,7 @@ Note: These files are used for Raspberry Pi only. Users can create their own cli
 | client/logo_rc.py            | Contains images converted into Python code for easy import into other scripts, such as displaying logos or icons.       |
 | client/database.db           | A database file created to store the plant ID, date, time and prediction result.                                        |
 
-<a name="section3"></a>
+<a name="section4"></a>
 ## Server Directory Details
 
 | File                          | Description                                                                                                              |
@@ -57,7 +81,7 @@ Note: These files are used for Raspberry Pi only. Users can create their own cli
 | server/inceptionV3_arch.h5    | Stores the architecture of the trained CNN model used for disease classification and severity estimation. The pre-trained model used here is the inceptionV3. |
 | server/inceptionV3_weights.h5 | Stores the weights of the trained CNN model used for disease classification and severity estimation. |
 
-<a name="section4"></a>
+<a name="section5"></a>
 ## UI Directory Details
 
 | File                           | Description                          |
@@ -68,7 +92,7 @@ Note: These files are used for Raspberry Pi only. Users can create their own cli
 | ui/logo.qrc                       | Resource file for logos and icons    |
 | ui/icons                          | Directory containing icons for the application |
 
-<a name="section5"></a>
+<a name="section6"></a>
 ## Setting Up PyQt5 Development Environment
 
 To start developing PyQt5 applications, first setup `pyenv` in your computer and then follow these steps to set up your development environment:
@@ -113,7 +137,7 @@ To start developing PyQt5 applications, first setup `pyenv` in your computer and
 
 With these steps completed, you're ready to start developing PyQt5 applications using the powerful tools provided by the PyQt5 framework.
 
-<a name="section6"></a>
+<a name="section7"></a>
 ## Converting UI to Python in Qt
 
 In Qt, the user interface (UI) files are typically created using Qt Designer, a visual design tool for building GUI applications. These UI files are saved with a `.ui` extension and contain the layout, widgets, and properties of the user interface.
