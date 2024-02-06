@@ -8,7 +8,7 @@
 This repository contains the source code for a client-server application that leverages a trained model to classify plant diseases and estimate their severity in hydroponically grown Pechay.
 
 <p align="center">
-  <img src="icons/Overall architecture 2.jpg" alt="Logo">
+  <img src="icons/Overall architecture 2.jpg" alt="Logo" width="400">
 </p>
 
 The architectural diagram illustrates the interplay between the client and server components. At its heart lies the laptop server, hosting the trained deep learning model designed to recognize diseases in Pechay plants and assess their severity. By deploying this model as a REST API, it becomes readily available for inference by the Raspberry Pi. This setup not only ensures efficient utilization of resources but also facilitates scalability, making the model accessible across various platforms including mobile and desktop applications.
