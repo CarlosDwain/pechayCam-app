@@ -51,8 +51,8 @@ The client verifies the success of the server response. If unsuccessful, the use
 | ui/mainwindow_3.5inch_final.ui | User interface for the main window   |
 | ui/predict_dialog_reco.ui      | User interface for the prediction dialog |
 | ui/report_dialog.ui            | User interface for the report dialog |
-| logo.qrc                       | Resource file for logos and icons    |
-| icons                          | Directory containing icons for the application |
+| ui/logo.qrc                       | Resource file for logos and icons    |
+| ui/icons                          | Directory containing icons for the application |
 
 
 ## Setting Up PyQt5 Development Environment
