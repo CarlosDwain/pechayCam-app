@@ -29,7 +29,7 @@ The architectural diagram illustrates the interplay between the client and serve
    ```bash
    git clone https://github.com/CarlosDwain/pechayCam-app.git
 
-2. Install a Python Environment (Highly Recommended)
+2. Install a Python Environment (Highly Recommended. See the TOC to go to the installation.) 
 3. Install the dependencies:
    ```bash
    pip install -r requirement_pyqt5.txt
